@@ -1,0 +1,17 @@
+*{
+    margin: auto;
+    color: aquamarine;
+    padding: 12%;
+    padding-top: 0%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h1,
+h2,
+h5 {
+    color: violet;
+    text-decoration: underline;
+    background: yellowgreen;
+}
+.about {
+    background-color: rgba,(10, 10, 0, 0.3);
+}
