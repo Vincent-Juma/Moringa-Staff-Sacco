@@ -11,9 +11,14 @@
 <body>
     <h1>Membership Portal</h1>
     <p>Join Us And Be Part Of The Successful Team !!!!!!</p>
-    <form onsubmit="results();" method="post" action="#">
-        <div class="form-row">
+    <!-- <form onsubmit="results();" method="post" action="#"> -->
+        
+      
+      <div id="container">
+        <div id="show-contact">
+      <div class="form-row">
           <div class="form-group col-md-4">
+            
             <label for="fname">First Name</label>
             <input type="text" class="form-control" id="inputfname" placeholder="first name">
           </div>
@@ -22,15 +27,18 @@
             <input type="text" class="form-control" id="inputlname" placeholder="last name">
           </div>
         </div>
-        <div class="form-group col-md-4">
-          <label for="address">Email Address</label>
-          <input type="text" class="form-control" id="input-address" placeholder="email">
+
+        <div class="form-row">
+          <div class="form-group col-md-4">
+            <label for="address">Email Address</label>
+            <input type="text" class="form-control" id="input-address" placeholder="email">
+          </div>
+          <div class="form-group col-md-4">
+            <label for="address">Telephone</label>
+            <input type="number" class="form-control" id="input-addresstwo" placeholder="phone no">
+          </div>
         </div>
 
-        <div class="form-group col-md-4">
-          <label for="addresstwo">Telephone</label>
-          <input type="number" class="form-control" id="input-addresstwo" placeholder="phone no">
-        </div>
         <div class="form-row">
           <div class="form-group col-md-4">
             <label for="inputCity">City</label>
@@ -44,13 +52,9 @@
               <option>Female</option>
               <option>Do not Disclose</option>
             </select>
-          </div>
-          <div class="form-group col-md-2">
-            <label for="input-comment">Leave a Comment</label>
-            <textarea id="input-comment"name="comment" rows="4" cols="31" placeholder="Write your comments here"></textarea>
-            <button type="text" class="form-control" id="input-comment">Welcome!!!!</button>
-          </div>
+          </div>         
         </div>
+
         <div class="form-group  col-md-2">
           <div class="form-check">
             <input class="form-check-input" type="checkbox" id="gridCheck">
@@ -59,10 +63,16 @@
             </label>
           </div>
         </div>
-        <button type="reset" class="btn btn-primary" class="form-control">Reset</button>
-        <button id="submit" class="btn btn-primary"  onclick="()">Sign in</button>
+       
+        <button type="submit" class="btn">Submit</button>
          </form>
-         <h2 id="name">Your are added under here: </h2>
+         <h2>Your are added under here: </h2>
+         <ul id="members">
+
+         </ul>
+</div>
+</div>
+
 
       <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
       <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
