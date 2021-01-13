@@ -8,6 +8,23 @@ body {
     padding: 10px;
     margin: 7%;
     margin-top: 0%;
+    background-color: rgb(2, 54, 32);
+}
+.card_text {
+    color: azure;
+    background-color: rgb(38, 75, 1);
+}
+#sign {
+    padding: 18%;
+    padding-top: 5%;
+    background-color: rgb(93, 117, 58);
+    padding-bottom: 5%;
+    padding-left: 15%;
+}
+ion-icon {
+    color: azure;
+    background-color: rgb(38, 75, 1);
+
 }
 .animate {
     padding-left: 10px;
@@ -19,14 +36,15 @@ body {
 }
 .slide {
     align-content: center;
+    color: azure;
 }
 em {
     font-size: xx-large;
-    color: greenyellow;
+    color: whitesmoke
 }
 h2,
 h5 {
-    color: violet;
+    color: rgb(22, 36, 1);
     text-decoration: underline;
     background: rgba(10, 10, 10, 0.1)
 }
