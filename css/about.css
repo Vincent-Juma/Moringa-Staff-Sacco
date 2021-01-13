@@ -3,6 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+body {
+    background: url(/img/background.png);
+    background-color: rgba(10, 10, 10, 0.3);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 h1,
 h2,
 h5 {
@@ -12,4 +18,9 @@ h5 {
 }
 .about {
     background-color:  rgba(10, 10, 10, 0.3);
+}
+.mt_5 {
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
 }
