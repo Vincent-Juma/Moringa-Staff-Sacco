@@ -5,8 +5,8 @@
 }
 body {
     background-attachment: fixed;
-    padding: 15px;
-    margin: 10%;
+    padding: 10px;
+    margin: 7%;
     margin-top: 0%;
 }
 .animate {
@@ -29,17 +29,16 @@ h5 {
     text-decoration: underline;
     background: rgba(10, 10, 10, 0.1)
 }
+h3 {
+    text-align: center;
+}
 .about {
     background-color:  rgba(10, 10, 10, 0.3);
 }
 .float {
-    height: 400px;
-    width: 400px;
-}
-.strong {
-    height: 400px;
-    width: 400px;
-    float: right;
+    color: black;
+    align-content: center;
+    text-align: center;
 }
 .mt_5 {
     text-align: center;
