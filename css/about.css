@@ -1,4 +1,4 @@
-*{
+/* *{
     margin: auto;
     color: aquamarine;
     padding: 12%;
@@ -10,8 +10,8 @@ h2,
 h5 {
     color: violet;
     text-decoration: underline;
-    background: yellowgreen;
+    background: rgb(23, 26, 19);
 }
 .about {
-    background-color: rgba,(10, 10, 0, 0.3);
-}
+    background-color:  rgba(10, 10, 10, 0.3);
+} */
