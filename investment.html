@@ -17,21 +17,63 @@
     <p>When it comes to Investment, there is a lot to consider as when done right it could lead to a drastic increase of
       your fund but when done wrong, you could lose a lot. <br>
       Our aim is to stick on the right side and make valuable and smart investments. Our Investment portfolio ranges
-      from Financial Markets (Forex Exchange and Stocks), to Seed Capital Investment (this is where we invest in a
+      from Financial Markets (Forex Exchange and Stocks), to Seed Capital Investment (this is where we invest in
       promising Startup's). <br>
       One undestandable consern with Investment is how we balance risk against reward. At Moringa Staff Sacco we tend to
-      be risk averse by making well thought through decisions.
+      be risk averse by making well thought through Investment decisions.
     </p>
     <p>Our packages include:</p>
     <ol>
       <li>Light package</li>
-      <p>This is for those that do not wish to keep their money for long. It is mainly for those who have cash on hand but do not wish for it to reamin "inactive"</p>
+      <p>This is for those that do not wish to keep their money for long. It is mainly for those who have cash on hand
+        but do not wish for it to reamin "inactive"</p>
       <li>Bright package</li>
-      <p>As much as we tend to be risk averse, there are some clients that wish to undertake high risk investments. We make <strong>calculated</strong> high risk investments to ensure maximum profits with minimum losses.</p>
+      <p>As much as we tend to be risk averse, there are some clients that wish to undertake high risk investments. We
+        make <strong>calculated</strong> high risk investments to ensure maximum profits with minimum losses.</p>
       <li>Calm package</li>
-      <p>This is often for those that wish to invest their funds long term with a certain level of assuarance eg. Gorvernment Bonds.</p>
+      <p>This is often for those that wish to invest their funds long term with a certain level of assuarance eg.
+        Gorvernment Bonds.</p>
     </ol>
-    <p>Each of the different packages have different rates. The table below has more on this.</p>
+    <p>Each of the different packages have different rates. The form below has more on this.</p>
+    <form action="">
+      <label for="select">Select Your Flavor</label>
+      <select class="browser-default custom-select custom-select-md mb-3 name">
+        <option value="Light Package">Light Package</option>
+        <option value="Bright Package">Bright Package</option>
+        <option value="Calm Package">Calm Package</option>        
+      </select>
+      <label for="select">Range of Investment</label>
+      <select class="browser-default custom-select custom-select-md mb-3" id="size">
+        <option selected value="0">Select Investment Amount</option>
+        <option value="investment1">Ksh. 1,0000,000 - Ksh. 800,000</option>
+        <option value="invetsment2">Ksh. 799,999 - Ksh. 600,000</option>
+        <option value="invetsment3">Ksh. 599,999 - Ksh. 400,000</option>
+        <option value="invetsment4">Ksh. 399,999 - Ksh. 200,000</option>
+        <option value="invetsment5">Ksh. 199,999 - Ksh. 100,000</option>
+      </select>
+      <label for="crust">Choose your intended investment time</label>
+      <select class="browser-default custom-select custom-select-md mb-3" id="crust">
+        <option selected value="0">Select your preferred period</option>
+        <option value="year1">Over 5 years</option>
+        <option value="year2">4 years</option>
+        <option value="year3">3 years</option>
+        <option value="year3">2 years</option>
+        <option value="year3">1 years</option>
+        <option value="year3">6 months</option>
+      </select>
+      <label for="Membership">Select Your Membership status</label><br>
+      <div class="custom-control custom-checkbox custom-control-inline">
+        <input type="checkbox" class="custom-control-input" id="Member" value="Member" name="Membership">
+        <label class="custom-control-label" for="Member">Member</label>
+      </div>
+      <div class="custom-control custom-checkbox custom-control-inline">
+        <input type="checkbox" class="custom-control-input" id="Non-Member" value="Non-Member" name="Membership">
+        <label class="custom-control-label" for="Non-Member">Non-Member</label>
+      </div>      
+      <br><br>
+      <button type="submit" class="btn btn-primary col-md-3 calculate">Calculate</button>
+      <button type="submit" class="btn btn-primary col-md-3 clear">Clear</button>
+    </form>
   </div>
 
 </body>
