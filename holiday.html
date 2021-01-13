@@ -25,7 +25,7 @@
     <ol>
       <li>Group Package</li>
       <p>This is where you can save up with friends whom you intend to go on holiday with.</p>
-      <li>Partners </li>
+      <li>Partners Package</li>
       <p>This is more of a couple package where we connect you with some of the most romantic destinations in the world.
       </p>
       <li>Family Package</li>
@@ -33,10 +33,50 @@
       <li>Individual Package</li>
       <p>This is for that much needed "me time". Get to treat yourself to a memorable and relaxing vacation.</p>
     </ol>
-    <p>Now that you know what we offer, how about we go into how you get to choose. The main points that we consider is group size as well as destination. <br>
-    We have deals with some of the local travel agencies to promote local tourism so that will give you a chance to tour the Country.
+    <p>Now that you know what we offer, how about we go into how you get to choose. The main points that we consider is
+      group size as well as destination. <br>
+      We have deals with some of the local travel agencies to promote local tourism so that will give you a chance to
+      tour the Country.
     </p>
-    <p>The table below will give you further details.</p>
+    <p>The form below will give you further details.</p>
+    <form action="">
+      <label for="select">Select Your Package</label>
+      <select class="browser-default custom-select custom-select-md mb-3 name">
+        <option value="Group">Group Package</option>
+        <option value="Partners">Partners Package</option>
+        <option value="Individual">Individual Package</option>
+      </select>
+      <label for="select">Amount</label>
+      <select class="browser-default custom-select custom-select-md mb-3" id="size">
+        <option selected value="0">Select Amount</option>
+        <option value="holiday1">Ksh. 800,000 - Ksh. 600,000</option>
+        <option value="holiday2">Ksh. 599,999 - Ksh. 400,000</option>
+        <option value="holiday3">Ksh. 399,999 - Ksh. 200,000</option>
+        <option value="holiday4">Ksh. 199,999 - Ksh. 100,000</option>
+      </select>
+      <label for="period">Choose your intended investment time</label>
+      <select class="browser-default custom-select custom-select-md mb-3" id="crust">
+        <option selected value="0">Select your preferred period</option>
+        <option value="year1">Over 5 years</option>
+        <option value="year2">4 years</option>
+        <option value="year3">3 years</option>
+        <option value="year4">2 years</option>
+        <option value="year5">1 year</option>
+        <option value="year6">6 months</option>
+      </select>
+      <label for="Membership">Select Your Membership status</label><br>
+      <div class="custom-control custom-checkbox custom-control-inline">
+        <input type="checkbox" class="custom-control-input" id="Member" value="Member" name="Membership">
+        <label class="custom-control-label" for="Member">Member</label>
+      </div>
+      <div class="custom-control custom-checkbox custom-control-inline">
+        <input type="checkbox" class="custom-control-input" id="Non-Member" value="Non-Member" name="Membership">
+        <label class="custom-control-label" for="Non-Member">Non-Member</label>
+      </div>
+      <br><br>
+      <button type="submit" class="btn btn-primary col-md-3 calculate">Calculate</button>
+      <button type="submit" class="btn btn-primary col-md-3 clear">Clear</button>
+    </form>
   </div>
 
 </body>
