@@ -9,6 +9,9 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
+.slide {
+    align-content: center;
+}
 h1,
 h2,
 h5 {
