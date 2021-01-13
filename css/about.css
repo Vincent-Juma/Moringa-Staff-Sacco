@@ -10,6 +10,7 @@ body {
     margin-top: 0%;
 }
 .animate {
+    padding-left: 10px;
     background: url(/img/salary.png);
     background-size: cover;
     width: auto;
@@ -44,4 +45,7 @@ h3 {
     text-align: center;
     font-size: x-large;
     font-weight: bold;
+}
+#align {
+    display: inline-flex;
 }
