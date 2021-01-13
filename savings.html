@@ -37,10 +37,51 @@
         This will be a problem if you did not save while you were working and trying to find another job will be hard.
       </p>
       <li>Health Savings</li>
-        <p>When it comes to your health it is always wise to play it safe. Having a fall back plan, should things go south, is always a safe bet.</p>
+      <p>When it comes to your health it is always wise to play it safe. Having a fall back plan, should things go
+        south, is always a safe bet.</p>
     </ol>
     <br>
-    <p>Now that you know what we have on offer, you know are probably wondering how you can get the loans and at what interest loan.  The form below will help you out with that.</p>
+    <p>Now that you know what we have on offer, you know are probably wondering how you can get the loans and at what
+      interest loan. The form below will help you out with that.</p>
+
+    <form action="">
+      <label for="select">Select Your Option</label>
+      <select class="browser-default custom-select custom-select-md mb-3 name">
+        <option value="Education Savings">Education Savings</option>
+        <option value="Retirement Savings">Retirement Savings</option>
+        <option value="Health Savings">Health Savings</option>
+      </select>
+      <label for="select">Range of Savings</label>
+      <select class="browser-default custom-select custom-select-md mb-3" id="size">
+        <option selected value="0">Select Savings Amount</option>
+        <option value="investment1">Ksh. 1,0000,000 - Ksh. 800,000</option>
+        <option value="invetsment2">Ksh. 799,999 - Ksh. 600,000</option>
+        <option value="invetsment3">Ksh. 599,999 - Ksh. 400,000</option>
+        <option value="invetsment4">Ksh. 399,999 - Ksh. 200,000</option>
+        <option value="invetsment5">Ksh. 199,999 - Ksh. 100,000</option>
+      </select>
+      <label for="period">Choose your intended saving duration</label>
+      <select class="browser-default custom-select custom-select-md mb-3" id="crust">
+        <option selected value="0">Select your preferred period</option>
+        <option value="year1">Over 5 years</option>
+        <option value="year2">4 years</option>
+        <option value="year3">3 years</option>
+        <option value="year4">2 years</option>
+        <option value="year5">1 year</option>
+      </select>
+      <label for="Membership">Select Your Membership status</label><br>
+      <div class="custom-control custom-checkbox custom-control-inline">
+        <input type="checkbox" class="custom-control-input" id="Member" value="Member" name="Membership">
+        <label class="custom-control-label" for="Member">Member</label>
+      </div>
+      <div class="custom-control custom-checkbox custom-control-inline">
+        <input type="checkbox" class="custom-control-input" id="Non-Member" value="Non-Member" name="Membership">
+        <label class="custom-control-label" for="Non-Member">Non-Member</label>
+      </div>
+      <br><br>
+      <button type="submit" class="btn btn-primary col-md-3 calculate">Calculate</button>
+      <button type="submit" class="btn btn-primary col-md-3 clear">Clear</button>
+    </form>
   </div>
 
 </body>
