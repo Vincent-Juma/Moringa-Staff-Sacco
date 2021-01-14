@@ -9,35 +9,64 @@
 
 </head>
 <body>
+
+<div class="container1">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Moringa Staff Sacco</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+      
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home </a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="#">About Us</a>
+        </li>
+        <li class="nav-item dropdown active">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Services
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Loans</a>
+            <a class="dropdown-item" href="#">Savings</a>
+             <a class="dropdown-item" href="#">Open Account</a>
+          </div>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link disabled" href="#">Contas Us!</a>
+        </li>
+      </ul>
+      </div>     
+       </nav>
+</div>
+
+  <div class="container">
     <h1>Membership Portal</h1>
     <p>Join Us And Be Part Of The Successful Team !!!!!!</p>
-    <!-- <form onsubmit="results();" method="post" action="#"> -->
-        
       
-      <form id="new-contact">
-        <!-- <div class="form-group"> -->
-          <div class="form-row">
+      <form id="new-contact" class="my-form" action="">
+       <div class="form-row">
           <div class="form-group col-md-4">
-            
+                     
             <label for="new-first-name">First name</label>
-            <input type="text" class="form-control" id="new-first-name" placeholder="first name">
+            <input type="text" class="form-control" id="new-first-name" placeholder="first name">    
           </div>
           <div class="form-group col-md-4">
-            <!-- <div class="form-group"> -->
-              <label for="new-last-name">Last name</label>
+            <label for="new-last-name">Last name</label>
               <input type="text" class="form-control" id="new-last-name" placeholder="first name">
-            </div>
+              </div>
           </div>
 
             <div class="form-row">
             <div class="form-group col-md-4">
-            <!-- <div class="form-group"> -->
-              <label for="new-email">E-mail</label>
+            <label for="new-email">E-mail</label>
               <input type="text" class="form-control" id="new-email" placeholder="email">
             </div>
       
-            <div class="form-group col-md-4">
-            <!-- <div class="form-group"> -->
+            <div class="form-group col-md-4">            
               <label for="new-phone-no">Telephone:</label>
               <input type="text" class="form-control" id="new-phone" placeholder="phone no">
             </div>
@@ -58,26 +87,21 @@
                 </select>
               </div>         
             </div>
-    
-            <div class="form-group  col-md-2">
-              <div class="form-check">
-                <input class="form-check-input" type="checkbox" id="gridCheck">
-                <label class="form-check-label" for="gridCheck">
-                  Keep me login
-                </label>
-              </div>
-            </div>
-
-            <div class="col-md-2">
-              <button type="submit" class="btn ">Submit</button>
             
-            </div>
+            <div class="col-md-2">
+              <input type="reset" value="Reset">
+    <button onclick="myFunction()" >submit</button>
+    </div>
+            
           </form>
-      
+  </div>
+
+          <div class="mover">
           <h2>Your are added under here:</h2>
-          <ul id="contacts">
-      
-          </ul>
+            <ul id="contacts">
+              </ul>
+          </div>
+
         </div>
       </div>
       </div>
