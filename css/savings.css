@@ -1,8 +1,8 @@
-@import url(https://fonts.google.com/);
 
 body {
-  background-color: skyblue;
-  font: Yusei Magic;
+  background-color: skyblue;  
+  font-weight: normal;
+  font-size: 18px;
 }
 .container {
   letter-spacing: 2px;
