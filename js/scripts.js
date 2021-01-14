@@ -2,7 +2,7 @@
 // alert("welcome vj");
 
 var mission_img = '<img src="./img/about.jpeg" height="250px" width="350px"><br><h5>MISSION</h5>';
-var mission_text2 = '<h5>MISSION</h5><p>We create wealth for members by mobilization of savings and provision of competitive loans, while assuring high returns through innovative financial solutions</p>';
+var mission_text2 = '<h5>MISSION</h5><p style="color: black;">We create wealth for members by mobilization of savings and provision of competitive loans.</p>';
 $(document).ready(function()
 {
   $("#mission").click(function()

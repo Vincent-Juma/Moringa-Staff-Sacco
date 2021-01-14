@@ -1,14 +1,10 @@
- * {
-    margin: 0;
-    padding: 0px;
-    box-sizing: border-box;
-}
-body {
-    background-attachment: fixed;
-    padding: 10px;
-    margin: 7%;
+
+.container {
+    background-color: #00180e;
+    padding: 1%;
+    padding-top: 0%;
     margin-top: 0%;
-    background-color: rgb(2, 54, 32);
+    margin-bottom: 5px;
 }
 .card_text {
     color: azure;
@@ -20,6 +16,13 @@ body {
     background-color: rgb(93, 117, 58);
     padding-bottom: 5%;
     padding-left: 15%;
+}
+i {
+    background-color: chartreuse;
+}
+.who {
+    text-align: center;
+    background-color: chartreuse;
 }
 ion-icon {
     color: azure;
@@ -36,7 +39,7 @@ ion-icon {
 }
 .slide {
     align-content: center;
-    color: azure;
+
 }
 em {
     font-size: xx-large;
@@ -50,6 +53,8 @@ h5 {
 }
 h3 {
     text-align: center;
+    text-decoration: underline;
+    color: black;
 }
 .about {
     background-color:  rgba(10, 10, 10, 0.3);
