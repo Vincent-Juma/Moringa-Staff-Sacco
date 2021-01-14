@@ -1,0 +1,14 @@
+@import url(https://fonts.google.com/);
+body {
+  font-size: 18px;
+}
+.jumbotron {
+  text-align: center;
+  align-items: center;
+  padding: 18px;
+  background-color:blue;   
+}
+
+.card-img-top {
+  align-items: center;
+}
