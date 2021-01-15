@@ -17,16 +17,23 @@ $(document).ready(function () {
    
     var newContact = new Contact(inputtedFirstName, inputtedLastName);
     
-    $("ul#contacts").append("<li><span class='contact'>" + newContact.firstName + newContact.lastName + "</span></li>");
+    $("ul#contacts").append("<li><span class='contact'>" + newContact.lastName + "</span></li>");
+    // newContact.firstName + 
 
-
-    $("#new-first-name").val("");
+    // $("#new-first-name").val("");
     $("#new-last-name").val("");
     
     alert('You Have Sucessfully Registered as A Sacco Member!!!')
 
   });
   
+  $(".container").submit(function(event) {
+    event.preventDefault();
+    var name = $("#naame").val();
+    alert("Our Dear  Member," + name+"  Welcome  and  feel  at  home  to  be  part  of  the  successful  team. Together  we  shall  conquer.!!!");
+    document.getElementById("my-form").reset();
+});
+
 });
 
 
