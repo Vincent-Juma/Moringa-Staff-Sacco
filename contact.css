@@ -5,10 +5,17 @@ h1{
     background-image: url(./css/img/avery-evans-RJQE64NmC_o-unsplash.jpg);
     background-position:relative;
     background-size: cover;
-    padding-top: 5%;
+    /* padding-top: 5%; */
 }
-post{
+/* .post{
     padding-bottom:2%;
     float:top;
     position: relative;
+} */
+ 
+/* .end {
+    display:flex;
+} */
+.pant{
+    background-color: darkmagenta;
 }
