@@ -1,0 +1,14 @@
+h1{
+    color: blueviolet;
+}
+.cont{
+    background-image: url(./css/img/avery-evans-RJQE64NmC_o-unsplash.jpg);
+    background-position:relative;
+    background-size: cover;
+    padding-top: 5%;
+}
+post{
+    padding-bottom:2%;
+    float:top;
+    position: relative;
+}
