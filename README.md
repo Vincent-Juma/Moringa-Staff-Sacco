@@ -1,10 +1,9 @@
 # Moringa-Staff-Sacco
-# Delight-Pizza
 
 Visit  Our Website
-Pizza shop
+Moringa-Staff-Sacco
 
-Compiled by Eng. Vincent Juma
+Compiled by Vincent Juma
 
 Technologies Used
 
