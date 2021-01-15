@@ -1,0 +1,18 @@
+@import url(https://fonts.google.com/);
+body {
+  font-size: 18px;
+  background-color: rgb(197, 215, 238);
+}
+.jumbotron {
+  text-align: center;
+  align-items: center;
+  padding: 18px;
+  background-color:blue;   
+}
+.card-body {
+  background-color: rgb(197, 215, 238);
+}
+
+.card-img-top {
+  align-items: center;
+}
