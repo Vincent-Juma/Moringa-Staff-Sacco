@@ -53,7 +53,7 @@ body ,html{
          font-weight: 700;
          margin-bottom: 20px;
          position: absolute;
-         animate:text 3s 1;
+         /* animate:text 3s 1; */
 
     }
     
@@ -219,6 +219,8 @@ nav {
 }
 .navbar{
     background-color: transparent:important;
+    height: 62px;
+    /* position:fixed; */
 }
 .nav-link{
     margin-left:86px ;
