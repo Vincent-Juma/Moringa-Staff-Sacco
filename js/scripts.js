@@ -1,4 +1,4 @@
-// SERVICES SCRIPT
+// ABOUT SCRIPT
 // alert("welcome vj");
 
 var mission_img = '<img src="./img/about.jpeg" height="250px" width="350px"><br><h5>MISSION</h5>';
@@ -12,7 +12,7 @@ $(document).ready(function()
 });
 
 var vision_img = '<img src="./img/sacco.jpg" height="250px" width="350px"><br><h5>VISION</h5>';
-var vision_text2 = '<h5>MISSION</h5><p>To be the preferred financial services provider to our members</p>';
+var vision_text2 = '<h5>VISION</h5><p style="color: black;">To be the preferred financial services provider to our members</p>';
 $(document).ready(function()
 {
   $("#vision").click(function()
@@ -21,7 +21,7 @@ $(document).ready(function()
   });
 });
 var motto_img = '<img src="./img/sacco3.jpg" height="250px" width="350px"><br><h5>MOTTO</h5>';
-var motto_text2 = '<h5>MISSION</h5><p>Financial management is the the key to success.</p>';
+var motto_text2 = '<h5>MOTTO</h5><p style="color: black;">Financial management is the the key to success.</p>';
 $(document).ready(function()
 {
   $("#motto").click(function()
@@ -29,4 +29,4 @@ $(document).ready(function()
       $(this).html($(this).html() == motto_text2 ? motto_img : motto_text2);
   });
 });
-// END OF SERVICES SCRIPT
+// END OF ABOUT SCRIPT

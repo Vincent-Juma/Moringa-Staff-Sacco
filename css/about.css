@@ -1,32 +1,37 @@
+body {
+    background-color: #808080;
+    background: url(/img/hd.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
 
+}
 .container {
-    background-color: #00180e;
+    background-color: #001118;
     padding: 1%;
     padding-top: 0%;
     margin-top: 0%;
     margin-bottom: 5px;
 }
+#promise:hover {
+    background-color: rgb(4, 114, 134);
+}
 .card_text {
     color: azure;
-    background-color: rgb(38, 75, 1);
+    background-color: rgb(1, 73, 75);
 }
 #sign {
     padding: 18%;
     padding-top: 5%;
-    background-color: rgb(93, 117, 58);
+    background-color: rgb(14, 118, 136);
     padding-bottom: 5%;
     padding-left: 15%;
 }
-i {
-    background-color: chartreuse;
-}
 .who {
     text-align: center;
-    background-color: chartreuse;
+    background-color: #44a393;
 }
 ion-icon {
-    color: azure;
-    background-color: rgb(38, 75, 1);
+    color: rgb(1, 87, 87);
 
 }
 .animate {
@@ -41,13 +46,15 @@ ion-icon {
     align-content: center;
 
 }
+.cont {
+    background: url()
+}
 em {
     font-size: xx-large;
     color: whitesmoke
 }
 h2,
 h5 {
-    color: rgb(22, 36, 1);
     text-decoration: underline;
     background: rgba(10, 10, 10, 0.1)
 }
@@ -57,7 +64,7 @@ h3 {
     color: black;
 }
 .about {
-    background-color:  rgba(10, 10, 10, 0.3);
+    background-color:  rgba(133, 214, 235, 0.3);
 }
 .float {
     color: black;
@@ -71,4 +78,17 @@ h3 {
 }
 #align {
     display: inline-flex;
+}
+.row:hover {
+    lighting-color: chartreuse;
+}
+.rounded {
+    float: right; 
+    padding-top: 120px;
+    height: 800px; 
+    width: 700px; 
+    padding-right: 30px; 
+}
+#about {
+    background-color: rgb(62, 102, 3);
 }
