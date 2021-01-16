@@ -1,0 +1,29 @@
+@import url(https://fonts.google.com/);
+
+body {
+  background-color: skyblue;
+  font: Yusei Magic;
+  font-weight: normal;
+  font-size: 18px;
+}
+.container {
+  letter-spacing: 2px;
+}
+.jumbotron {
+  text-align: center;
+  align-items: center;
+  padding: 18px;
+  background-color:blue;  
+}
+h3 {
+  text-align: center;
+  align-items: center;
+  color: blue;
+  font: Dosis;
+}
+.card:hover {
+  background-color:skyblue;
+}
+.card-title {
+  color: blue;
+}

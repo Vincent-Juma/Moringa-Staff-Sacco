@@ -1,0 +1,24 @@
+
+h1, p{
+    /* text-align: center; */
+    padding-left: 230px;
+}
+*{
+    padding-left: 10px;
+ 
+}
+.mover{
+    float: right;
+    margin-right: 350px;
+    padding-bottom: 1200px;
+}
+.container{
+    background-color: rgb(2, 175, 175);
+}
+
+button{
+   background-color:  rgb(13, 186, 230);
+}
+input{
+    background-color:  rgb(13, 186, 230);
+}
