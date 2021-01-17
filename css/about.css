@@ -1,0 +1,94 @@
+body {
+    background-color: #808080;
+    background: url(/img/blue\ berry.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+.container {
+    background-color: #001118;
+    padding: 1%;
+    padding-top: 0%;
+    margin-top: 0%;
+    margin-bottom: 5px;
+}
+#promise:hover {
+    background-color: rgb(4, 114, 134);
+}
+.card_text {
+    color: azure;
+    background-color: rgb(1, 73, 75);
+}
+#sign {
+    padding: 18%;
+    padding-top: 5%;
+    background-color: rgb(14, 118, 136);
+    padding-bottom: 5%;
+    padding-left: 15%;
+}
+.who {
+    text-align: center;
+    background-color: #44a393;
+}
+ion-icon {
+    color: rgb(1, 87, 87);
+
+}
+.animate {
+    padding-left: 10px;
+    background: url(/img/salary.png);
+    background-size: cover;
+    width: auto;
+    height: max-content;
+    color: white;
+}
+.slide {
+    align-content: center;
+
+}
+.cont {
+    background: url()
+}
+em {
+    font-size: xx-large;
+    color: whitesmoke
+}
+h2,
+h5 {
+    text-decoration: underline;
+    background: rgba(10, 10, 10, 0.1)
+}
+h3 {
+    text-align: center;
+    text-decoration: underline;
+    color: black;
+}
+.about {
+    background-color:  rgba(133, 214, 235, 0.3);
+}
+.float {
+    color: black;
+    align-content: center;
+    text-align: center;
+}
+.mt_5 {
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+}
+#align {
+    display: inline-flex;
+}
+.row:hover {
+    lighting-color: chartreuse;
+}
+.rounded {
+    float: right; 
+    padding-top: 120px;
+    height: 800px; 
+    width: 700px; 
+    padding-right: 30px; 
+}
+#about {
+    background-color: rgb(62, 102, 3);
+}
